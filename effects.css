@@ -1,0 +1,414 @@
+/* animation for the '.wrapper' */
+@keyframes rotate {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg)
+    }
+
+    100% {
+        transform: rotateX(-360deg) rotateY(360deg)
+    }
+}
+
+/* effects for cube hover */
+
+.cube1:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube1),
+        0 0 20px var(--cube1),
+        0 0 30px var(--cube1),
+        0 0 40px var(--cube1),
+        0 0 50px var(--cube1),
+        0 0 60px var(--cube1),
+        0 0 70px var(--cube1),
+        0 0 80px var(--cube1),
+        0 0 90px var(--cube1),
+        0 0 100px var(--cube1);
+}
+
+.cube2:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube2),
+        0 0 20px var(--cube2),
+        0 0 30px var(--cube2),
+        0 0 40px var(--cube2),
+        0 0 50px var(--cube2),
+        0 0 60px var(--cube2),
+        0 0 70px var(--cube2),
+        0 0 80px var(--cube2),
+        0 0 90px var(--cube2),
+        0 0 100px var(--cube2);
+}
+
+.cube3:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube3),
+        0 0 20px var(--cube3),
+        0 0 30px var(--cube3),
+        0 0 40px var(--cube3),
+        0 0 50px var(--cube3),
+        0 0 60px var(--cube3),
+        0 0 70px var(--cube3),
+        0 0 80px var(--cube3),
+        0 0 90px var(--cube3),
+        0 0 100px var(--cube3);
+}
+
+.cube4:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube4),
+        0 0 20px var(--cube4),
+        0 0 30px var(--cube4),
+        0 0 40px var(--cube4),
+        0 0 50px var(--cube4),
+        0 0 60px var(--cube4),
+        0 0 70px var(--cube4),
+        0 0 80px var(--cube4),
+        0 0 90px var(--cube4),
+        0 0 100px var(--cube4);
+}
+
+.cube5:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube5),
+        0 0 20px var(--cube5),
+        0 0 30px var(--cube5),
+        0 0 40px var(--cube5),
+        0 0 50px var(--cube5),
+        0 0 60px var(--cube5),
+        0 0 70px var(--cube5),
+        0 0 80px var(--cube5),
+        0 0 90px var(--cube5),
+        0 0 100px var(--cube5);
+}
+
+.cube6:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube6),
+        0 0 20px var(--cube6),
+        0 0 30px var(--cube6),
+        0 0 40px var(--cube6),
+        0 0 50px var(--cube6),
+        0 0 60px var(--cube6),
+        0 0 70px var(--cube6),
+        0 0 80px var(--cube6),
+        0 0 90px var(--cube6),
+        0 0 100px var(--cube6);
+}
+
+.cube7:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube7),
+        0 0 20px var(--cube7),
+        0 0 30px var(--cube7),
+        0 0 40px var(--cube7),
+        0 0 50px var(--cube7),
+        0 0 60px var(--cube7),
+        0 0 70px var(--cube7),
+        0 0 80px var(--cube7),
+        0 0 90px var(--cube7),
+        0 0 100px var(--cube7);
+}
+
+.cube8:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube8),
+        0 0 20px var(--cube8),
+        0 0 30px var(--cube8),
+        0 0 40px var(--cube8),
+        0 0 50px var(--cube8),
+        0 0 60px var(--cube8),
+        0 0 70px var(--cube8),
+        0 0 80px var(--cube8),
+        0 0 90px var(--cube8),
+        0 0 100px var(--cube8);
+}
+
+.cube9:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube9),
+        0 0 20px var(--cube9),
+        0 0 30px var(--cube9),
+        0 0 40px var(--cube9),
+        0 0 50px var(--cube9),
+        0 0 60px var(--cube9),
+        0 0 70px var(--cube9),
+        0 0 80px var(--cube9),
+        0 0 90px var(--cube9),
+        0 0 100px var(--cube9);
+}
+
+.cube10:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube10),
+        0 0 20px var(--cube10),
+        0 0 30px var(--cube10),
+        0 0 40px var(--cube10),
+        0 0 50px var(--cube10),
+        0 0 60px var(--cube10),
+        0 0 70px var(--cube10),
+        0 0 80px var(--cube10),
+        0 0 90px var(--cube10),
+        0 0 100px var(--cube10);
+}
+
+.cube11:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube11),
+        0 0 20px var(--cube11),
+        0 0 30px var(--cube11),
+        0 0 40px var(--cube11),
+        0 0 50px var(--cube11),
+        0 0 60px var(--cube11),
+        0 0 70px var(--cube11),
+        0 0 80px var(--cube11),
+        0 0 90px var(--cube11),
+        0 0 100px var(--cube11);
+}
+
+.cube12:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube12),
+        0 0 20px var(--cube12),
+        0 0 30px var(--cube12),
+        0 0 40px var(--cube12),
+        0 0 50px var(--cube12),
+        0 0 60px var(--cube12),
+        0 0 70px var(--cube12),
+        0 0 80px var(--cube12),
+        0 0 90px var(--cube12);
+}
+
+.cube13:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube13),
+        0 0 20px var(--cube13),
+        0 0 30px var(--cube13),
+        0 0 40px var(--cube13),
+        0 0 50px var(--cube13),
+        0 0 60px var(--cube13),
+        0 0 70px var(--cube13),
+        0 0 80px var(--cube13),
+        0 0 90px var(--cube13),
+        0 0 100px var(--cube13);
+}
+
+.cube14:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube14),
+        0 0 20px var(--cube14),
+        0 0 30px var(--cube14),
+        0 0 40px var(--cube14),
+        0 0 50px var(--cube14),
+        0 0 60px var(--cube14),
+        0 0 70px var(--cube14),
+        0 0 80px var(--cube14),
+        0 0 90px var(--cube14),
+        0 0 100px var(--cube14);
+}
+
+.cube15:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube15),
+        0 0 20px var(--cube15),
+        0 0 30px var(--cube15),
+        0 0 40px var(--cube15),
+        0 0 50px var(--cube15),
+        0 0 60px var(--cube15),
+        0 0 70px var(--cube15),
+        0 0 80px var(--cube15),
+        0 0 90px var(--cube15),
+        0 0 100px var(--cube15);
+}
+
+.cube16:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube16),
+        0 0 20px var(--cube16),
+        0 0 30px var(--cube16),
+        0 0 40px var(--cube16),
+        0 0 50px var(--cube16),
+        0 0 60px var(--cube16),
+        0 0 70px var(--cube16),
+        0 0 80px var(--cube16),
+        0 0 90px var(--cube16),
+        0 0 100px var(--cube16);
+}
+
+.cube17:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube17),
+        0 0 20px var(--cube17),
+        0 0 30px var(--cube17),
+        0 0 40px var(--cube17),
+        0 0 50px var(--cube17),
+        0 0 60px var(--cube17),
+        0 0 70px var(--cube17),
+        0 0 80px var(--cube17),
+        0 0 90px var(--cube17),
+        0 0 100px var(--cube17);
+}
+
+.cube18:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube18),
+        0 0 20px var(--cube18),
+        0 0 30px var(--cube18),
+        0 0 40px var(--cube18),
+        0 0 50px var(--cube18),
+        0 0 60px var(--cube18),
+        0 0 70px var(--cube18),
+        0 0 80px var(--cube18),
+        0 0 90px var(--cube18),
+        0 0 100px var(--cube18);
+}
+
+.cube19:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube19),
+        0 0 20px var(--cube19),
+        0 0 30px var(--cube19),
+        0 0 40px var(--cube19),
+        0 0 50px var(--cube19),
+        0 0 60px var(--cube19),
+        0 0 70px var(--cube19),
+        0 0 80px var(--cube19),
+        0 0 90px var(--cube19),
+        0 0 100px var(--cube19);
+}
+
+.cube20:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube20),
+        0 0 20px var(--cube20),
+        0 0 30px var(--cube20),
+        0 0 40px var(--cube20),
+        0 0 50px var(--cube20),
+        0 0 60px var(--cube20),
+        0 0 70px var(--cube20),
+        0 0 80px var(--cube20),
+        0 0 90px var(--cube20),
+        0 0 100px var(--cube20);
+}
+
+.cube21:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube21),
+        0 0 20px var(--cube21),
+        0 0 30px var(--cube21),
+        0 0 40px var(--cube21),
+        0 0 50px var(--cube21),
+        0 0 60px var(--cube21),
+        0 0 70px var(--cube21),
+        0 0 80px var(--cube21),
+        0 0 90px var(--cube21),
+        0 0 100px var(--cube21);
+}
+
+.cube22:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube22),
+        0 0 20px var(--cube22),
+        0 0 30px var(--cube22),
+        0 0 40px var(--cube22),
+        0 0 50px var(--cube22),
+        0 0 60px var(--cube22),
+        0 0 70px var(--cube22),
+        0 0 80px var(--cube22),
+        0 0 90px var(--cube22),
+        0 0 100px var(--cube22);
+}
+
+.cube23:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube23),
+        0 0 20px var(--cube23),
+        0 0 30px var(--cube23),
+        0 0 40px var(--cube23),
+        0 0 50px var(--cube23),
+        0 0 60px var(--cube23),
+        0 0 70px var(--cube23),
+        0 0 80px var(--cube23),
+        0 0 90px var(--cube23),
+        0 0 100px var(--cube23);
+}
+
+.cube24:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube24),
+        0 0 20px var(--cube24),
+        0 0 30px var(--cube24),
+        0 0 40px var(--cube24),
+        0 0 50px var(--cube24),
+        0 0 60px var(--cube24),
+        0 0 70px var(--cube24),
+        0 0 80px var(--cube24),
+        0 0 90px var(--cube24),
+        0 0 100px var(--cube24);
+}
+
+.cube25:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube25),
+        0 0 20px var(--cube25),
+        0 0 30px var(--cube25),
+        0 0 40px var(--cube25),
+        0 0 50px var(--cube25),
+        0 0 60px var(--cube25),
+        0 0 70px var(--cube25),
+        0 0 80px var(--cube25),
+        0 0 90px var(--cube25),
+        0 0 100px var(--cube25);
+}
+
+.cube26:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube26),
+        0 0 20px var(--cube26),
+        0 0 30px var(--cube26),
+        0 0 40px var(--cube26),
+        0 0 50px var(--cube26),
+        0 0 60px var(--cube26),
+        0 0 70px var(--cube26),
+        0 0 80px var(--cube26),
+        0 0 90px var(--cube26),
+        0 0 100px var(--cube26);
+}
+
+.cube27:hover>.side {
+    z-index: 100;
+    box-shadow: 0 0 10px var(--cube27),
+        0 0 20px var(--cube27),
+        0 0 30px var(--cube27),
+        0 0 40px var(--cube27),
+        0 0 50px var(--cube27),
+        0 0 60px var(--cube27),
+        0 0 70px var(--cube27),
+        0 0 80px var(--cube27),
+        0 0 90px var(--cube27),
+        0 0 100px var(--cube27);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
